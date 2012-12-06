@@ -1,0 +1,4 @@
+# Teradata ODBC configuration
+
+This project contains all the necessary documentation to configure teradata ODBC connection in ubuntu 12
+
