@@ -1,4 +1,26 @@
 # Teradata ODBC configuration
 
-This project contains all the necessary documentation to configure teradata ODBC connection in ubuntu 12
+This project contains all the necessary documentation to configure teradata ODBC connection in different linux distros.
+Currently it installs:
+
+1. **cliv2** (Teradata client)
+1. **tdodbc** (Teradata ODBC connector)
+1. **tdicu** (Teradata shared ICU libraries)
+1. **tdgssconfig.bin** (Binary for TD configuration)
+1. **rubycli-1.0.0** (Ruby client for TD)
+
+Included is a **install.sh** file. It handles all the instalation steps automatically.
+To use it just
+
+```bash
+chmod 755 install.sh
+./install.sh debian # If you are using a debian based distro (like ubuntu)
+# OR
+./install.sh redhat # If you are using a redhat based disto (Like CentOS)
+```
+
+And that's it!
+
+Good coding
+
 
